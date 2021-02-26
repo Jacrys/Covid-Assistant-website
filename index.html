@@ -18,6 +18,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/fc0ea6aa1b.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/index.css" /> 
     <!--[if lt IE 9]>
             <p class="browsehappy">You are using an
@@ -86,6 +90,14 @@
             <a href="https://www.cnet.com/how-to/how-to-install-chrome-extensions-manually/">How to install manually</a>
         </div>
       </div>
-</body>
+      <footer class="footer">Made in <img class="flag" src="images/tulsa-flag600.png"> with <i class="fad fa-heart"></i> and <i class="fad fa-hand-holding-heart fa-swap-opacity"></i> by <a href="https://followus.com/jacrys" target="_blank">Jacrys</a> in <span id="year"></span></footer>
+      <script>
+          let date = new Date();
+          let year = date.getFullYear();
+          let yearDiv = document.getElementById('year');
+
+          yearDiv.innerHTML = year
+      </script>
+    </body>
 
 </html>

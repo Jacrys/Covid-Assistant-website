@@ -12,3 +12,37 @@ img.center, picture.center {
 .center {
     margin:0 auto;
 }
+
+.fa-heart {
+    --fa-primary-color: red;
+    --fa-secondary-color: pink ;
+    --fa-secondary-opacity: 0.6;
+}
+
+.fa-hand-holding-heart {
+    --fa-primary-color: red;
+    --fa-secondary-color: antiquewhite;
+    --fa-secondary-opacity: 0.5;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+.svg-inline--fa {
+    font-size: 1.5rem;
+}
+
+.flag {
+    width: 30px;
+    height: 20px;
+    -webkit-box-shadow: 0px 0px 0px 2px antiquewhite;
+    -moz-box-shadow: 0px 0px 0px 2px antiquewhite;
+    box-shadow: 0px 0px 0px 2px antiquewhite;
+    margin: 0 7px 0 5px;
+    transform: translateY(-5px);
+}
