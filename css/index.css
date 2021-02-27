@@ -13,6 +13,23 @@ img.center, picture.center {
     margin:0 auto;
 }
 
+.CWS {
+    margin-bottom: 3rem;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #282C34;
+  }
+
+.svg-inline--fa {
+    font-size: 1.5rem;
+}
+
 .fa-heart {
     --fa-primary-color: red;
     --fa-secondary-color: pink ;
@@ -23,18 +40,6 @@ img.center, picture.center {
     --fa-primary-color: red;
     --fa-secondary-color: antiquewhite;
     --fa-secondary-opacity: 0.5;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-  }
-
-.svg-inline--fa {
-    font-size: 1.5rem;
 }
 
 .flag {
