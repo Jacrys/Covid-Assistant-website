@@ -17,6 +17,10 @@ img.center, picture.center {
     margin-bottom: 3rem;
 }
 
+.instructions-container {
+    margin-bottom: 2.5rem;
+}
+
 .footer {
     position: fixed;
     left: 0;
